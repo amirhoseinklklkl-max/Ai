@@ -10,13 +10,6 @@
     <preference name="android-targetSdkVersion" value="34" />
     <preference name="MixedContentMode" value="0" />
     <preference name="Fullscreen" value="true" />
-    <icon src="images/profile-game.png" />
-    <icon src="images/profile-game.png" density="ldpi" />
-    <icon src="images/profile-game.png" density="mdpi" />
-    <icon src="images/profile-game.png" density="hdpi" />
-    <icon src="images/profile-game.png" density="xhdpi" />
-    <icon src="images/profile-game.png" density="xxhdpi" />
-    <icon src="images/profile-game.png" density="xxxhdpi" />
     <platform name="android">
         <allow-intent href="market:*" />
         <edit-config target="/manifest/application/activity[@android:name='MainActivity']" file="AndroidManifest.xml" mode="merge">
