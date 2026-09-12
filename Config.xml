@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ir.amir.chatbot" version="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>چت بات</name>
+    <description>My awesome game</description>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <preference name="MixedContentMode" value="0" />
+    <preference name="Fullscreen" value="true" />
+    <icon src="images/profile-game.png" />
+    <icon src="images/profile-game.png" density="ldpi" />
+    <icon src="images/profile-game.png" density="mdpi" />
+    <icon src="images/profile-game.png" density="hdpi" />
+    <icon src="images/profile-game.png" density="xhdpi" />
+    <icon src="images/profile-game.png" density="xxhdpi" />
+    <icon src="images/profile-game.png" density="xxxhdpi" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <edit-config target="/manifest/application/activity[@android:name='MainActivity']" file="AndroidManifest.xml" mode="merge">
+            <activity android:windowSoftInputMode="adjustPan" />
+        </edit-config>
+    </platform>
+</widget>
